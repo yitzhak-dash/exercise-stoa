@@ -1,0 +1,6 @@
+{
+  "downloadDir": "./../downloads",
+  "dbUrl": "mongodb://localhost:27017",
+  "dbName": "dev_db",
+  "concurrency": 10
+}
