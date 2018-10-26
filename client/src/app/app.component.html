@@ -1,0 +1,19 @@
+<div>
+  <div >
+    <button (click)="loadData()" mat-raised-button>Load data</button>
+  </div>
+  <hr>
+  <mat-card>
+    <mat-card-content>
+      <h2 class="example-h2">Result</h2>
+      <section class="example-section">
+        <mat-progress-bar
+          class="example-margin"
+          [color]="color"
+          [mode]="mode"
+          [value]="value">
+        </mat-progress-bar>
+      </section>
+    </mat-card-content>
+  </mat-card>
+</div>
